@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+html, body{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*DELETE*/
+div{
+    border: 1px solid red;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    height: 8vh;
+    
+    background-color: rgb(41, 41, 41);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo-image{
+    height: 100%;
+}
+
+.logo-text{
+    font-size: 200%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search-input{
+    height: 75%;
+    width: 85%;
+    
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-size: 24pt;
+}
+
+.search-button{
+    height: 80%;
+    width: 15%;
+
+    background-color: rgb(83, 83, 83);
+}
+
+.profile-picture{
+    height: 100%;
+    border-radius: 100%;
+
+    
+}
