@@ -109,15 +109,31 @@ li{
 
 .filter{
     display: flex;
+    flex-wrap: wrap;
+
+    background-color: rgb(48, 48, 48);
+    border: 1px solid rgb(80, 80, 80);
 }
 
 .filter-button{
+    display: flex;
+    margin-right: 1%;
+
     border-radius: 10px;
     border-color: rgb(197, 197, 197);
-    border-style: solid;
 
     font-weight: 900;
 
     background-color: rgb(80, 80, 80);
     color: white;
+}
+
+/* Videos */
+
+.videos{
+    display: flex;
+}
+
+.video-module{
+
 }
