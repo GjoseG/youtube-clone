@@ -135,5 +135,45 @@ li{
 }
 
 .video-module{
+    display: flex;
+    flex-direction: column;
+}
 
+.thumbnail{
+    height: 99%;
+    width: 100%;
+}
+
+/* Information section of the video module, stores profile picture, name, and title. */
+
+.info{
+    display: flex;
+
+    align-items: center;
+
+    width: 100%;
+}
+
+.uploader-pfp{
+    width: 15%;
+    height: 75%;
+
+    border-radius: 100%;
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 1%;
+}
+
+.video-title{
+    font-weight: 900;
+
+    margin-bottom: 0px;
+}
+
+.uploader-name{
+    font-weight: 600;
 }
