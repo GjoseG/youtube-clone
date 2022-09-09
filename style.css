@@ -16,6 +16,7 @@ div{
     border: 1px solid red;
 }
 
+/* Header/Masthead */
 .header{
     display: flex;
     justify-content: space-between;
@@ -65,6 +66,30 @@ div{
 .profile-picture{
     height: 100%;
     border-radius: 100%;
+}
 
+/* Main Body */
+
+.main{
+    display: flex;
+}
+
+.sidebar{
+    display: flex;
     
+    background-color: rgb(41, 41, 41);
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+li{
+    padding-bottom: 15%;
+}
+
+.side-link{
+    color: white;
+    text-decoration: none;
 }
