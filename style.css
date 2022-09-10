@@ -11,11 +11,6 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*DELETE*/
-div{
-    border: 1px solid red;
-}
-
 /* Header/Masthead */
 .header{
     display: flex;
