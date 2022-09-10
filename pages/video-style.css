@@ -11,10 +11,6 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div{
-    border: 1px solid red;
-}
-
 /* Header/Masthead */
 
 .header{
